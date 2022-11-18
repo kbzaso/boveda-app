@@ -1,4 +1,6 @@
-<div class="overflow-x-auto mx-4 md:mx-auto shadow-xl card">
+<div class="md:mx-auto w-full md:w-6/12">
+<h2 class="text-3xl font-bold mb-4">💰 Valores</h2>
+<div class="overflow-x-auto shadow-xl card">
     <table class="table w-full">
       <!-- head -->
       <thead>
@@ -8,26 +10,28 @@
         </tr>
       </thead>
       <tbody>
-        <!-- row 1 -->
-        <tr>
-          <th>Clase única</th>
-          <td>$8.000 CLP</td>
-        </tr>
+        
         <!-- row 2 -->
         <tr>
-          <th>1 clase /semana</th>
+          <th>1 clase a la semana</th>
           <td>$20.000 CLP</td>
         </tr>
         <!-- row 3 -->
         <tr>
-          <th>2 clases /semana</th>
+          <th>2 clases a la semana</th>
           <td>$30.000 CLP</td>
         </tr>
         <!-- row 4 -->
-        <tr>
+        <!-- <tr>
           <th>3 clases /semana</th>
           <td>$42.000 CLP</td>
+        </tr> -->
+        <!-- row 1 -->
+        <tr>
+          <th class="bg-accent-content">Clase única</th>
+          <td class="bg-accent-content">$8.000 CLP</td>
         </tr>
       </tbody>
     </table>
   </div>
+</div>

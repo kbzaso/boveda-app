@@ -3,7 +3,6 @@
     import Hero from '../components/Hero.svelte'
     import Horarios from '../components/Horarios.svelte'
     import Valores from '../components/Valores.svelte'
-    import CTA from '../components/CTA.svelte'
     import Profe from '../components/Profe.svelte'
     import Maps from '../components/Maps.svelte'
     import Footer from '../components/Footer.svelte'
@@ -19,7 +18,7 @@
         juan: {
             name:'Juan',
             img: 'juan.jpg',
-            description: 'Hace su debut como luchador el año 2017, haciendo su carrera principalmente en 5 Luchas Clandestino. Preparador Físico de la Universidad Santo Tomás.',
+            description: 'De profesión Preparador Físico de Universidad Santo Tomás, hace su debut como luchador el año 2017, haciendo su carrera principalmente en 5 Luchas Clandestino. Su formación como luchador la realizó principalmente bajo el alero de Guanchulo, en Yeyos Dojo, junto a otros profesores como Zatara y Alejandro "XL" Sáez. El 2022 comenzó a luchar regularmente en 5 Luchas Clandestino, ganándose en un par de eventos el cariño y respetos del exigente público de la asociación, lo que transforma en uno de los solicitados en las carteleras.',
             work:'5 Luchas Clandestino, Chile Lucha Libre, Max Lucha Libre, La Lucha Regresa.',
             igLink: 'https://www.instagram.com/juancontreraspf/'
         }
@@ -31,17 +30,13 @@
 <div class="bg-base-200 min-h-screen">
     <Hero/>
     <div class="container mx-auto my-6">
-        <div class="my-20">
-            <h2 class="text-3xl font-bold mx-4 mb-4">⏰ Horarios</h2>
+        <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
             <Horarios/>
-        </div>
-        <div class="my-20">
-            <h2 class="text-3xl font-bold mx-4 mb-4 mt-10">💰 Valores</h2>
             <Valores/>
         </div>
         <div class="my-20">
             <h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Profesores</h2>
-            <div class="flex gap-8 mt-8 mx-4 flex-col md:flex-row">
+            <div class="flex gap-10 mt-8 mx-4 flex-col md:flex-row">
                 <Profe img={zatara.img} name={zatara.name} description={zatara.description} work={zatara.work} igLink={zatara.igLink}/>
                 <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} />
             </div>
