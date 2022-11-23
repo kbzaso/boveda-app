@@ -7,7 +7,9 @@
 </script>
 
 <div class="card w-full md:w-6/12 bg-base-100 shadow-xl">
-    <figure><img src={img} class="w-full" alt={name} /></figure>
+    <figure>
+      <img src={img} class="w-full" alt={name} />
+    </figure>
     <div class="card-body">
       <h2 class="card-title text-2xl">{name}</h2>
       <p class="text-xl">{description}</p>

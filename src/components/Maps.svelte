@@ -4,7 +4,10 @@
     <div class="flex gap-10 flex-col md:flex-row container md:mx-auto">
         <div class="card w-full md:w-4/12 text-base-100">
             <h2 class="text-3xl font-bold mb-4 mt-10">📍 Ubicación</h2>
-            <p class="text-xl">La Bóveda Secreta queda en calle San Antonio 705, en el 3er piso de la galería <span class="underline underline-offset-2 decoration-wavy decoration-primary">Copa Cabana</span>. A pasos de diferentes estaciones de metro, como; <span class="underline underline-offset-2 decoration-wavy decoration-primary">Plaza de Armas</span>, <span class="underline underline-offset-2 decoration-wavy decoration-primary">Santa Ana</span> y <span class="underline underline-offset-2 decoration-wavy decoration-primary">Bellas Artes</span>.</p>
+            <p>
+                La Bóveda Secreta se encuentra en el 3er piso de la Galería “Nueva Copacabana” ubicada en calle San Antonio #705, Santiago Centro. Las estaciones de Metro más cercanas a ella son <span class="underline underline-offset-2 decoration-wavy decoration-primary">Plaza de Armas</span>, <span class="underline underline-offset-2 decoration-wavy decoration-primary">Bellas Artes</span> y <span class="underline underline-offset-2 decoration-wavy decoration-primary">Puente Cal y Canto</span>. 
+            </p>
+
             <a href="#" class="btn btn-primary w-full md:w-fit mt-6">Me quiero inscribir</a>
         </div>
         <div class="w-full md:w-8/12 rounded-lg overflow-hidden shadow-xl">
@@ -12,3 +15,5 @@
         </div>
     </div>
 </div>
+
+

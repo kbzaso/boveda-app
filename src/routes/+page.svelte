@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from "svelte";
+    import { fade } from "svelte/transition";
     import "../app.css";
     import Hero from '../components/Hero.svelte'
     import Horarios from '../components/Horarios.svelte'
@@ -7,19 +9,20 @@
     import Maps from '../components/Maps.svelte'
     import Footer from '../components/Footer.svelte'
     import HamMenu from '../components/HamMenu.svelte'
+    import Callout from '../components/Callout.svelte'
 
     const profes = {
         zatara: {
             name: 'Zatara - La Cabrona',
             img: 'zatara.jpg',
-            description: 'Debuta como luchadora el año 2008 en Santiago. Luego de diversas participaciones en distintas promociones de Chile, y de haber debutado el 2018 en México, es confirmada como la primera mujer chilena en participar en un torneo de la WWE. Zatara participó el 2018 en la segunda edición del torneo WWE Mae Young Classic. El mismo año participa en el Tryout realizado en Chile por la WWE, donde obtendría recursos y conocimientos que junto a los obtenidos en su experiencia nacional e internacional, la transforman en una luchadora ideal para transmitir conocimientos tanto a luchadores ya formados, como a futuros luchadores.',
-            work: "WWE's Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio, 5 Luchas Clandestino.",
+            description: 'Luchadora Chilena con más de 14 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional. El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma este año el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena.',
+            work: "WWE's Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, 5 Luchas Clandestino, Revolución Lucha Libre, entre otras.",
             igLink: 'https://www.instagram.com/zatara.cabrona/'
         },
         juan: {
             name:'Juan',
             img: 'juan.jpg',
-            description: 'De profesión Preparador Físico de Universidad Santo Tomás, hace su debut como luchador el año 2017, haciendo su carrera principalmente en 5 Luchas Clandestino. Su formación como luchador la realizó principalmente bajo el alero de Guanchulo, en Yeyos Dojo, junto a otros profesores como Zatara y Alejandro "XL" Sáez. El 2022 comenzó a luchar regularmente en 5 Luchas Clandestino, ganándose en un par de eventos el cariño y respetos del exigente público de 5 Luchas Clandestino.',
+            description: 'Preparador Físico de la Universidad Santo Tomás, debuta el 2017 como luchador bajo el alero de Guanchulo y Alejandro “XL” Saez como principales mentores. De estos últimos, toma las bases de su formación y visión de la lucha libre, siendo parte importante del círculo de trabajo más cerrado del “Yeyos Dojo”. La suma de sus conocimientos formativos sitúan a Juan como un sólido referente en la formación de luchadores profesionales capacitados para desenvolverse en la escena local e internacional.',
             work:'5 Luchas Clandestino, Chile Lucha Libre, Max Lucha Libre, La Lucha Regresa.',
             igLink: 'https://www.instagram.com/juancontreraspf/'
         }
@@ -27,15 +30,22 @@
     const { zatara } = profes
     const { juan } = profes
 
+    let show = false;
+
+    onMount(() => {
+        show = true;
+    })
+
 </script>
 
 <div class="drawer">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content">
+    {#if show}
+    <div class="drawer-content" >
         <HamMenu/>
-
-        <div class="bg-base-200 min-h-screen">
+        <div class="bg-base-200 min-h-screen" transition:fade>
             <Hero/>
+            <Callout/>
             <div class="container mx-auto my-6">
                 <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
                     <Horarios/>
@@ -52,8 +62,8 @@
             <Maps/>
             <Footer/>
         </div>
-
     </div> 
+    {/if}
     <div class="drawer-side">
       <label for="my-drawer" class="drawer-overlay"></label>
       <ul class="menu p-4 w-80 bg-base-100 text-base-content flex gap-2 text-lg uppercase tracking-widest">
