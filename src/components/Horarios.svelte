@@ -1,11 +1,11 @@
-<div class="mx-auto w-full md:w-6/12">
+<div id="horarios" class="mx-auto w-full md:w-6/12 scroll-mt-10">
   <h2 class="text-3xl font-bold mb-4">⏰ Horarios</h2>
   <div class="overflow-x-auto h-max shadow-xl card">
       <table class="table w-full">
         <!-- head -->
         <thead>
           <tr>
-            <th class="bg-accent text-base-100 font-normal">Horario (max 12 alumnos)</th>
+            <th class="bg-accent text-base-100 font-normal">Horario</th>
             <th class="bg-accent text-base-100 font-normal">Martes</th>
             <th class="bg-accent text-base-100 font-normal">Jueves</th>
           </tr>
@@ -26,4 +26,5 @@
         </tbody>
       </table>
     </div>
+    <p class="mt-4 uppercase tracking-widest text-gray-500 text-center">(max 12 alumnos por clase)</p>
 </div>

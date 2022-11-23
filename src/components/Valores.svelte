@@ -1,4 +1,4 @@
-<div class="md:mx-auto w-full md:w-6/12">
+<div id="valores" class="md:mx-auto w-full md:w-6/12 scroll-mt-10">
 <h2 class="text-3xl font-bold mb-4">💰 Valores</h2>
 <div class="overflow-x-auto shadow-xl card">
     <table class="table w-full">
