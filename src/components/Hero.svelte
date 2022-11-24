@@ -1,8 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
-  onMount(() => {
-    document.getElementById('vid').play();
-  })
 </script>
 
 <header class="relative bg-secondary-content flex items-center justify-center h-screen overflow-hidden">
@@ -21,14 +17,18 @@
     autoplay
     loop
     muted
+    playsinline
+    poster="https://res.cloudinary.com/dtj5xnlou/image/upload/v1669293222/background3.jpg"
     class="absolute z-10  opacity-20 w-auto min-w-full min-h-full max-w-none">
     <source
-      src="/background-web.mp4"
+      src="https://res.cloudinary.com/dtj5xnlou/video/upload/v1669290232/background-web.mp4"
       type="video/mp4"
     />
-    Your browser does not support the video tag.
+    Tu navegador no soporta video
   </video>
 </header>
+
+
 
 <!-- <div class="hero bg-secondary-content text-base-100 min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
