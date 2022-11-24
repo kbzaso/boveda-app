@@ -37,6 +37,11 @@
     })
 
 </script>
+<svelte:head>
+	<title>Bóveda Secreta - Entrenamientos de Lucha Libre</title>
+    <meta name="description" content="Nuestro objetivo es crear instancias de desarrollo profesional de nuestra disciplina, inspirados en formar luchadoras y luchadores aptos para desenvolverse en diferentes contextos, basados en dinámicas de entrenamiento orientadas al desarrollo físico y técnico con los que todo profesional de este deporte debe contar.">
+</svelte:head>
+
 
 <div class="drawer">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
