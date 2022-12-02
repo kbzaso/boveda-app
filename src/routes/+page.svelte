@@ -58,7 +58,7 @@
                 </div>
                 <div class="my-20 scroll-mt-10" id="profesores">
                     <h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Profesores</h2>
-                    <div class="flex gap-10 mt-8 mx-4 flex-col md:flex-row">
+                    <div class="flex gap-10 mt-8 mx-4 flex-col lg:flex-row">
                         <Profe img={zatara.img} name={zatara.name} description={zatara.description} work={zatara.work} igLink={zatara.igLink}/>
                         <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} />
                     </div>
