@@ -10,6 +10,7 @@
     import Footer from '../components/Footer.svelte'
     import HamMenu from '../components/HamMenu.svelte'
     import Callout from '../components/Callout.svelte'
+    import Bloque from '../components/Bloque.svelte'
 
     const profes = {
         zatara: {
@@ -55,6 +56,9 @@
                 <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
                     <Horarios/>
                     <Valores/>
+                </div>
+                <div class="mx-4">
+                    <Bloque/>
                 </div>
                 <div class="my-20 scroll-mt-10" id="profesores">
                     <h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Profesores</h2>

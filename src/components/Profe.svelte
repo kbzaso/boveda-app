@@ -22,7 +22,7 @@
 
 
 
-<div class="flex flex-col w-full items-stretch bg-white border rounded-2xl shadow-xl md:flex-row">
+<div class="flex flex-col w-full items-stretch bg-white border rounded-2xl shadow-xl md:flex-row hover:scale-105 transition-all">
 
   <div class="w-full md:w-60">
     <img class="object-cover h-full rounded-t-lg md:rounded-none md:rounded-l-lg" src={img} alt={name}>

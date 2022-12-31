@@ -1,6 +1,6 @@
 <div id="horarios" class="mx-auto w-full md:w-6/12 scroll-mt-10">
-  <h2 class="text-3xl font-bold mb-4">⏰ Horarios</h2>
-  <div class="overflow-x-auto h-max shadow-xl card">
+  <h2 class="text-3xl font-bold mb-8">⏰ Horarios</h2>
+  <div class="overflow-x-auto h-max shadow-xl card hover:scale-105 transition-all">
       <table class="table w-full">
         <!-- head -->
         <thead>
