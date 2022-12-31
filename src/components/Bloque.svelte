@@ -10,7 +10,7 @@
       <ul class="list-disc mt-4 ml-4 text-lg list-inside">
         <li>Drills (movimiento en ring)</li>
         <li>Caídas</li>
-        <li>Contenidos de lucha básico (Chain wrestling)</li>
+        <li>Contenidos de lucha básica</li>
         <li>Acondicionamiento físico</li>
       </ul>
   </div>
@@ -18,12 +18,13 @@
   <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl hover:scale-105 transition-all">
     <h5 class="text-2xl font-bold tracking-tight mb-2">Bloque Intermedio</h5>
     <p class="text-lg">
-      Entrenamiento para personas que inician en la disciplina. Este bloque tiene como objetivo entregar las herramientas fundamentales en la formación de un luchador, tales como:
+      Bloque enfocado para personas con experiencia en entrenamientos de Lucha Libre, en este se amplían los contenidos del bloque básico:
     </p>
     <ul class="list-disc ml-4 mt-4 text-lg list-inside">
+      <li>Movimientos en la Lucha Libre</li>
       <li>Drills (movimiento en ring)</li>
       <li>Caídas</li>
-      <li>Contenidos de lucha básico (Chain wrestling)</li>
+      <li>Chain wrestling</li>
       <li>Acondicionamiento físico</li>
     </ul>
   </div>
