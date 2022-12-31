@@ -8,21 +8,39 @@
             <th class="bg-accent text-base-100 font-normal">Horario</th>
             <th class="bg-accent text-base-100 font-normal">Martes</th>
             <th class="bg-accent text-base-100 font-normal">Jueves</th>
+            <th class="bg-accent text-base-100 font-normal">Sábados</th>
           </tr>
         </thead>
         <tbody>
-          <!-- row 2 -->
+          <!-- sabado -->
           <tr>
-            <th>17:30 - 19:00</th>
-            <td>Intermedio</td>
+            <th>12:00 - 13:30</th>
+            <td></td>
+            <td></td>
             <td>Básico</td>
           </tr>
-          <!-- row 3 -->
+          <!-- sabado -->
           <tr>
-            <th>19:10 - 20:40</th>
-            <td>Básico</td>
+            <th>14:00 - 15:30</th>
+            <td></td>
+            <td></td>
             <td>Intermedio</td>
           </tr>
+          <!-- MARTES -->
+          <tr>
+            <th>18:00 - 19:30</th>
+            <td>Intermedio</td>
+            <td>Básico</td>
+            <td></td>
+          </tr>
+          <!-- JUEVES -->
+          <tr>
+            <th>19:35 - 20:50</th>
+            <td>Básico</td>
+            <td>Intermedio</td>
+            <td></td>
+          </tr>
+          
         </tbody>
       </table>
     </div>
