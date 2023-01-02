@@ -20,6 +20,11 @@
           <th>2 clases a la semana / 8 al mes</th>
           <td>$30.000 CLP</td>
         </tr>
+        <!-- row 4 -->
+        <tr>
+          <th>3 clases por semana / 12 al mes</th>
+          <td>$42.000 CLP</td>
+        </tr>
         <tr>
           <th class="bg-accent-content">Clase única</th>
           <td class="bg-accent-content">$8.000 CLP</td>
