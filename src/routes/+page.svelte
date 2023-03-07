@@ -53,10 +53,6 @@
             <Hero/>
             <Callout/>
             <div class="container mx-auto my-6">
-                <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
-                    <Horarios/>
-                    <Valores/>
-                </div>
                 <div class="mx-4">
                     <Bloque/>
                 </div>
@@ -66,6 +62,10 @@
                         <Profe img={zatara.img} name={zatara.name} description={zatara.description} work={zatara.work} igLink={zatara.igLink}/>
                         <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} />
                     </div>
+                </div>
+                <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
+                    <Horarios/>
+                    <Valores/>
                 </div>
             </div>
             <Maps/>
