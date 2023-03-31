@@ -26,12 +26,16 @@
           <td>$42.000 CLP</td>
         </tr>
         <tr>
-          <th class="bg-accent-content/25">Clase única</th>
-          <td class="bg-accent-content/25">$8.000 CLP</td>
+          <th>4 clases por semana / 16 al mes</th>
+          <td>$52.000 CLP</td>
         </tr>
         <tr>
-          <th>OPEN RING / por persona</th>
-          <td>$4.000 CLP</td>
+          <th>Clase única</th>
+          <td>$8.000 CLP</td>
+        </tr>
+        <tr>
+          <th>OPEN RING / 8 personas máximo</th>
+          <td>$25.000 CLP</td>
         </tr>
       </tbody>
     </table>
