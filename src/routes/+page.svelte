@@ -63,7 +63,7 @@
                         <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} />
                     </div>
                 </div>
-                <div class="flex flex-col gap-10 mx-4 md:flex-row mt-10 md:mx-auto border justify-center">
+                <div class="flex flex-col gap-10 px-4 md:flex-row mt-10 md:mx-auto border justify-center">
                     <Horarios/>
                     <Valores/>
                 </div>

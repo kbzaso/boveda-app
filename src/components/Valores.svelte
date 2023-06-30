@@ -1,6 +1,6 @@
 <div id="valores" class="md:mx-auto w-full md:w-4/12 scroll-mt-10">
 <h2 class="text-3xl font-bold mb-8">💰 Valores</h2>
-<div class="overflow-x-auto shadow-xl card hover:scale-105 transition-all">
+<div class="overflow-x-auto shadow-xl card ">
     <table class="table w-full">
       <!-- head -->
       <thead>
@@ -33,10 +33,10 @@
           <th>Clase única</th>
           <td>$8.000 CLP</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <th>OPEN RING / 8 personas máximo</th>
           <td>$25.000 CLP</td>
-        </tr>
+        </tr> -->
       </tbody>
     </table>
   </div>

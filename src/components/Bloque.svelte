@@ -2,7 +2,7 @@
 <h2 class="text-3xl font-bold mb-8 md:text-center">🧐 ¿A que bloque me inscribo?</h2>
   
 <div class="lg:flex-row flex flex-col gap-10">
-  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl hover:scale-105 transition-all">
+  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl">
       <h5 class="text-2xl font-bold tracking-tight mb-2">Bloque Básico</h5>
       <p class="text-lg">
         Entrenamiento para personas que inician en la disciplina. Este bloque tiene como objetivo entregar las herramientas fundamentales en la formación de un luchador, tales como:
@@ -15,7 +15,7 @@
       </ul>
   </div>
 
-  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl hover:scale-105 transition-all">
+  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl">
     <h5 class="text-2xl font-bold tracking-tight mb-2">Bloque Intermedio</h5>
     <p class="text-lg">
       Bloque enfocado para personas con experiencia en entrenamientos de Lucha Libre, en este se amplían los contenidos del bloque básico:
