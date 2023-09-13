@@ -60,7 +60,7 @@
                     <h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Profesores</h2>
                     <div class="flex gap-10 mt-8 mx-4 flex-col lg:flex-row">
                         <Profe img={zatara.img} name={zatara.name} description={zatara.description} work={zatara.work} igLink={zatara.igLink}/>
-                        <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} />
+                        <!-- <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} /> -->
                     </div>
                 </div>
                 <div class="flex flex-col gap-10 px-4 md:flex-row mt-10 md:mx-auto border justify-center">

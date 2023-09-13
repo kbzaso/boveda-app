@@ -26,6 +26,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.41.0"
+		"daisyui": "^2.41.0",
+		"@supabase/auth-helpers-sveltekit": "^0.10.1",
+		"@supabase/supabase-js": "^2.27.0"
 	}
 }
