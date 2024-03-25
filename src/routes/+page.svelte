@@ -12,8 +12,9 @@
 	import Callout from '../components/Callout.svelte';
 	import Bloque from '../components/Bloque.svelte';
 
-	const profes = {
-		zatara: {
+	const coaches = [
+		{
+			status: false,
 			name: 'Zatara - La Cabrona',
 			img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/ZATARA-PROFESORA.jpg',
 			description:
@@ -21,17 +22,35 @@
 			work: "WWE's Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, 5 Luchas Clandestino, Revolución Lucha Libre, entre otras.",
 			igLink: 'https://www.instagram.com/zatara.cabrona/'
 		},
-		juan: {
+		{
+			status: false,
 			name: 'Juan',
 			img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/JUAN-PROFESOR.jpg',
 			description:
 				'Preparador Físico de la Universidad Santo Tomás, debuta el 2017 como luchador bajo el alero de Guanchulo y Alejandro “XL” Saez como principales mentores. De estos últimos, toma las bases de su formación y visión de la lucha libre, siendo parte importante del círculo de trabajo más cerrado del “Yeyos Dojo”. La suma de sus conocimientos formativos sitúan a Juan como un sólido referente en la formación de luchadores profesionales capacitados para desenvolverse en la escena local e internacional.',
-			work: '5 Luchas Clandestino, Chile Lucha Libre, Max Lucha Libre, La Lucha Regresa.',
+			work: '5 Luchas Clandestino, Chile Lucha Libre, Max Lucha Libre, Trash.',
 			igLink: 'https://www.instagram.com/juancontreraspf/'
 		},
-	};
-	const { zatara } = profes;
-	const { juan } = profes;
+		{
+			status: true,
+			name: 'Sara Phoenix',
+			img: '/sara.avif',
+			description:
+				'Luchadora Chilena con más de 10 años de experiencia en la lucha libre. Alumna de Guanchulo y  pioneras en la evolución constante de la lucha libre femenina en Chile, abriendo el camino para las futuras generaciones femeninas en la industria nacional.',
+			work: '5 Luchas Clandestino, Imperio Lucha Libre, Gladiadores, Trash',
+			igLink: 'https://www.instagram.com/sara.phoenix.wrestler/'
+		},
+		{
+			status: true,
+			name: 'Alejandro Sáez',
+			img: '/xl.avif',
+			description:
+				'Experimentado luchador con más de 15 años de trayectoria en la lucha libre nacional e internacional. Su vasta experiencia y conocimientos en la lucha libre lo convierten en un referente para las nuevas generaciones de luchadores y luchadoras.',
+			work: '5 Luchas Clandestino, WWE, NOAH Prowrestling, Dragonmanía, Gladiadores, BWF, Trash, entre otras.',
+		},
+	];
+
+	const activeCoaches = coaches.filter((coach) => coach.status);
 
 	let show = false;
 
@@ -63,14 +82,9 @@
 					<div class="my-20 scroll-mt-10" id="profesores">
 						<h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Profesores</h2>
 						<div class="flex gap-10 mt-8 mx-4 flex-col lg:flex-row">
-							<Profe
-								img={zatara.img}
-								name={zatara.name}
-								description={zatara.description}
-								work={zatara.work}
-								igLink={zatara.igLink}
-							/>
-							<!-- <Profe img={juan.img} name={juan.name} description={juan.description} work={juan.work} igLink={juan.igLink} /> -->
+							{#each activeCoaches as coach, i}
+								<Profe {coach} />
+							{/each}
 						</div>
 					</div>
 					<div class="flex flex-col gap-10 px-4 md:flex-row mt-10 md:mx-auto border justify-center">
