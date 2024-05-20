@@ -11,44 +11,7 @@
 	import HamMenu from '../components/HamMenu.svelte';
 	import Callout from '../components/Callout.svelte';
 	import Bloque from '../components/Bloque.svelte';
-
-	const coaches = [
-		{
-			status: false,
-			name: 'Zatara - La Cabrona',
-			img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/ZATARA-PROFESORA.jpg',
-			description:
-				'Luchadora Chilena con más de 14 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional. El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma este año el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena.',
-			work: "WWE's Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, 5 Luchas Clandestino, Revolución Lucha Libre, entre otras.",
-			igLink: 'https://www.instagram.com/zatara.cabrona/'
-		},
-		{
-			status: false,
-			name: 'Juan',
-			img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/JUAN-PROFESOR.jpg',
-			description:
-				'Preparador Físico de la Universidad Santo Tomás, debuta el 2017 como luchador bajo el alero de Guanchulo y Alejandro “XL” Saez como principales mentores. De estos últimos, toma las bases de su formación y visión de la lucha libre, siendo parte importante del círculo de trabajo más cerrado del “Yeyos Dojo”. La suma de sus conocimientos formativos sitúan a Juan como un sólido referente en la formación de luchadores profesionales capacitados para desenvolverse en la escena local e internacional.',
-			work: '5 Luchas Clandestino, Chile Lucha Libre, Max Lucha Libre, Trash.',
-			igLink: 'https://www.instagram.com/juancontreraspf/'
-		},
-		{
-			status: true,
-			name: 'Sara Phoenix',
-			img: '/sara.avif',
-			description:
-				'Luchadora Chilena con más de 10 años de experiencia en la lucha libre. Alumna de Guanchulo y  pioneras en la evolución constante de la lucha libre femenina en Chile, abriendo el camino para las futuras generaciones femeninas en la industria nacional.',
-			work: '5 Luchas Clandestino, Imperio Lucha Libre, Gladiadores, Trash',
-			igLink: 'https://www.instagram.com/sara.phoenix.wrestler/'
-		},
-		{
-			status: true,
-			name: 'Alejandro Sáez',
-			img: '/xl.avif',
-			description:
-				'Experimentado luchador con más de 15 años de trayectoria en la lucha libre nacional e internacional. Su vasta experiencia y conocimientos en la lucha libre lo convierten en un referente para las nuevas generaciones de luchadores y luchadoras.',
-			work: '5 Luchas Clandestino, WWE, NOAH Prowrestling, Dragonmanía, Gladiadores, BWF, Trash, entre otras.',
-		},
-	];
+	import { coaches, horarios } from '../lib/const.js';
 
 	const activeCoaches = coaches.filter((coach) => coach.status);
 
@@ -88,7 +51,7 @@
 						</div>
 					</div>
 					<div class="flex flex-col gap-10 px-4 md:flex-row mt-10 md:mx-auto border justify-center">
-						<Horarios />
+						<Horarios horarios={horarios} />
 						<Valores />
 					</div>
 				</div>
