@@ -9,7 +9,7 @@
 			<div class="py-4 px-8">
         <header>
 					<h3 class="text-lg font-bold mb-1">{bloque}</h3>
-					<p class="mb-4 truncate">Profesor: {profesor}</p>
+					<p class="mb-4 truncate">Instructor/a: {profesor}</p>
         </header>
 					{#each horarios as { dia, hora }, i}
 						<p key={i}>

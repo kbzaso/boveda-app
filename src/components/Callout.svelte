@@ -1,7 +1,6 @@
-<div class="bg-yellow-400 grid place-items-center px-4">
+<div class="bg-primary grid place-items-center px-4 w-full md:max-w-max rounded-xl shadow-lg">
     <div class="flex flex-col gap-2 px-4 py-8 text-center">
-        <h2 class="font-bold text-2xl md:text-xl uppercase md:tracking-widest">Los entrenamientos se están realizando con normalidad</h2>
-        <p class="text-lg">Última actualización: Lunes 20 de Mayo, 2024</p>
-        <button data-tally-open="wdbPAK" data-tally-overlay="1" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" class="btn mt-2">Me quiero inscribir</button>
+        <h2 class="font-bold text-lg uppercase">Los entrenamientos se están realizando con normalidad</h2>
+        <p class="text-lg">Última actualización: Lunes 27 de Agosto, 2024</p>
     </div>
 </div>

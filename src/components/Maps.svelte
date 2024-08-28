@@ -1,6 +1,6 @@
 
 
-<div class="mt-10 bg-accent py-10 px-4">
+<div class="bg-neutral py-10 px-4">
     <div class="flex gap-10 flex-col md:flex-row container md:mx-auto">
         <div class="card w-full md:w-4/12 text-base-100">
             <h2 class="text-3xl font-bold mb-4 mt-10">📍 Ubicación</h2>

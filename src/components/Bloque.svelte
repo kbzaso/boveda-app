@@ -1,34 +1,49 @@
-<section id="bloque" class=" w-full scroll-mt-10 mt-12">
-<h2 class="text-3xl font-bold mb-8 md:text-center">🧐 ¿A que bloque me inscribo?</h2>
-  
-<div class="lg:flex-row flex flex-col gap-10">
-  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl">
-      <h5 class="text-2xl font-bold tracking-tight mb-2">Bloque Básico</h5>
-      <p class="text-lg">
-        Entrenamiento para personas que inician en la disciplina. Este bloque tiene como objetivo entregar las herramientas fundamentales en la formación de un luchador, tales como:
-      </p>
-      <ul class="list-disc mt-4 ml-4 text-lg list-inside">
-        <li>Drills (movimiento en ring)</li>
-        <li>Caídas</li>
-        <li>Contenidos de lucha básica</li>
-        <li>Acondicionamiento físico</li>
-      </ul>
-  </div>
+<script>
+  import { fade, slide } from 'svelte/transition';
 
-  <div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl">
-    <h5 class="text-2xl font-bold tracking-tight mb-2">Bloque Intermedio</h5>
-    <p class="text-lg">
-      Bloque enfocado para personas con experiencia en entrenamientos de Lucha Libre, en este se amplían los contenidos del bloque básico:
-    </p>
-    <ul class="list-disc ml-4 mt-4 text-lg list-inside">
-      <li>Movimientos en la Lucha Libre</li>
-      <li>Drills (movimiento en ring)</li>
-      <li>Caídas</li>
-      <li>Chain wrestling</li>
-      <li>Acondicionamiento físico</li>
-    </ul>
-  </div>
+  export let info;
+  export let truncateAt = 150; // Number of characters to show before truncating
 
+  let { title, content } = info;
+
+  let isExpanded = false;
+  $: displayContent = isExpanded ? content : content.slice(0, truncateAt);
+  $: shouldTruncate = content.length > truncateAt;
+</script>
+
+<article class="card bg-base-100 shadow-xl flex-1 sub-items h-max">
+  <figure class="h-72">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+      alt="Album" />
+  </figure>
+  <div class="card-body p-4">
+    <h2 class="card-title">{title}</h2>
+    <div class="text-gray-700">
+      {#if isExpanded}
+        <span 
+        >
+          {@html content}
+        </span>
+      {:else}
+        <span>{@html displayContent}{shouldTruncate ? '...' : ''}</span>
+      {/if}
+    </div>
+
+    {#if shouldTruncate}
+      <button
+        on:click={() => isExpanded = !isExpanded}
+        class="w-full mt-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral transition-colors duration-200"
+        aria-expanded={isExpanded}
+      >
+        <span class="flex items-center justify-center">
+          {#if isExpanded}
+            <span>Mostrar menos</span>
+          {:else}
+            <span>Leer más</span>
+          {/if}
+        </span>
+      </button>
+    {/if}
   </div>
-  <!-- <p class="mt-4 uppercase tracking-widest text-gray-500 text-center">(Debes hacer uso las clases dentro del mes de inscripción)</p> -->
-</section>
+</article>
