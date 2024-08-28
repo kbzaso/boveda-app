@@ -1,6 +1,6 @@
 
 
-<div class="bg-neutral py-10 px-4">
+<div class="bg-neutral py-10 px-4 pattern">
     <div class="flex gap-10 flex-col md:flex-row container md:mx-auto">
         <div class="card w-full md:w-4/12 text-base-100">
             <h2 class="text-3xl font-bold mb-4 mt-10">📍 Ubicación</h2>
@@ -17,3 +17,11 @@
 </div>
 
 
+<style>
+    .pattern{
+      background: linear-gradient(45deg, #08001b 25%, transparent 25%), linear-gradient(315deg, #08001b 25%, transparent 25%) ,linear-gradient(45deg, transparent 24%,#221343 25%, #221343 30%, transparent 31%, transparent 39%,#221343 40%, #221343 45%, transparent 45%),linear-gradient(315deg, transparent 24%,#221343 25%, #221343 30%, transparent 31%, transparent 39%,#221343 40%, #221343 45%, transparent 45%);
+          background-size: 2em 2em;
+          background-color: #08001b;
+          opacity: 1
+    }
+  </style>

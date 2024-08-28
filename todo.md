@@ -2,13 +2,13 @@
 
 ### Add
 
-- [ ] Add Faq
-- [ ] Change all btns to the same color
-- [ ] Add show more and show less btn for long descriptions
+- [x] Add Faq
+- [x] Change all btns to the same color
+- [x] Add show more and show less btn for long descriptions
 - [ ] Add videos to card with type of classes
 - [x] More info btn / secondary action
 
 ### Fix
 
-- [ ] Grid of type of classes
+- [x] Grid of type of classes
 - [ ] Navbar for desktop and mobile
