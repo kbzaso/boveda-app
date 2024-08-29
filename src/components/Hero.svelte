@@ -1,4 +1,5 @@
 <script>
+	import { Youtube, Instagram } from 'lucide-svelte';
 </script>
 
 <header
@@ -21,6 +22,15 @@
 		<a href="/#blocks"
 			class="btn mt-2 btn-primary btn-outline">Más información</a
 		>
+	</div>
+	<div class=" rounded-lg flex gap-4 px-4 py-2 mt-6 items-center">
+		<span class="text-white">Redes sociales: </span>
+		<a href="https://www.instagram.com/bovedasecreta/" target="_blank" rel="noopener noreferrer">
+			<Instagram class="text-white w-8 h-8" />
+		</a>
+		<a href="https://www.youtube.com/@BovedaSecreta/featured" target="_blank" rel="noopener noreferrer">
+			<Youtube class="text-white w-8 h-8" />
+	</a>
 	</div>
 	</div>
 
