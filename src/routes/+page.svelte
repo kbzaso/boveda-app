@@ -12,7 +12,7 @@
 	import Bloque from '../components/Bloque.svelte';
 	import Faq from '../components/Faq.svelte';
 	import { coaches, horarios, blocks } from '../lib/const.js';
-	import MobileNav from '../components/MobileNav.svelte';
+	import Whatsapp from '../components/Whatsapp.svelte';
 	import Nav from '../components/Nav.svelte';
 
 	const activeCoaches = coaches.filter((coach) => coach.status);
@@ -28,7 +28,7 @@
 	<title>Bóveda Secreta - Entrenamientos de Lucha Libre</title>
 	<meta
 		name="description"
-		content="Nuestro objetivo es crear instancias de desarrollo profesional de nuestra disciplina, inspirados en formar luchadoras y luchadores aptos para desenvolverse en diferentes contextos, basados en dinámicas de entrenamiento orientadas al desarrollo físico y técnico con los que todo profesional de este deporte debe contar."
+		content="Centro de entrenamiento de lucha libre, con foco en la preparación física y técnica para un desempeño profesional de la disciplina."
 	/>
 </svelte:head>
 
@@ -68,6 +68,7 @@
 		<Footer />
 	</div>
 </div>
+<Whatsapp />
 
 
 <style>
