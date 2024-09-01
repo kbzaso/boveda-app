@@ -12,11 +12,11 @@
 </script>
 
 <article class="card bg-base-100 shadow-xl flex-1 sub-items h-max">
-  <figure class="h-72">
+  <!-- <figure class="h-72">
     <img
       src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
       alt="Album" />
-  </figure>
+  </figure> -->
   <div class="card-body p-4">
     <h2 class="card-title">{title}</h2>
     <div class="text-gray-700">

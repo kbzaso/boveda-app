@@ -121,7 +121,7 @@
       <div class="cursor-grab active:cursor-grabbing">
         <div class="grid p-2">
           <svg
-            class="h-6 w-6 text-white justify-self-center"
+            class="h-6 w-6 text-neutral justify-self-center"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

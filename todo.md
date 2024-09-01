@@ -3,7 +3,7 @@
 ### Add
 
 - [ ] Bento gallery of the place https://mitcheljager.github.io/svelte-tiny-slider/?ref=madewithsvelte.com
-- [ ] Whatsapp CTA
+- [x] Whatsapp CTA
 - [x] Add Faq
 - [x] Change all btns to the same color
 - [x] Add show more and show less btn for long descriptions
