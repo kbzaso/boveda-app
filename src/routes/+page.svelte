@@ -12,6 +12,8 @@
 	import Bloque from '../components/Bloque.svelte';
 	import Faq from '../components/Faq.svelte';
 	import { coaches, horarios, blocks } from '../lib/const.js';
+	import MobileNav from '../components/MobileNav.svelte';
+	import Nav from '../components/Nav.svelte';
 
 	const activeCoaches = coaches.filter((coach) => coach.status);
 
@@ -31,6 +33,7 @@
 </svelte:head>
 
 <div class="bg-base-200 pattern" transition:fade>
+	<Nav />
 	<section class="relative">
 		<Hero />
 		<div
@@ -39,14 +42,14 @@
 			<Callout />
 		</div>
 	</section>
-	<div id="blocks" class="container mx-auto my-6 mt-48 md:mt-28 scroll-m-10">
+	<div id="blocks" class="container mx-auto my-6 mt-48 md:mt-28 scroll-mt-32">
 		<h2 class="text-3xl font-bold mb-8 text-center">¿A que bloque me inscribo? 🧐</h2>
 		<div class="mx-4 flex flex-col lg:flex-row justify-between gap-4">
 			{#each blocks as block, i}
 				<Bloque info={block} />
 			{/each}
 		</div>
-		<div class="my-20 scroll-mt-10" id="profesores">
+		<div id="profesores" class="my-20 scroll-mt-32">
 			<h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Instractor/a</h2>
 			<div class="flex gap-10 mt-8 mx-4 flex-col lg:flex-row">
 				{#each activeCoaches as coach, i}

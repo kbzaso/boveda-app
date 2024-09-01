@@ -59,7 +59,7 @@
 	});
 </script>
 
-<section class="w-full bg-neutral text-white py-10 pattern">
+<section id="faq" class="w-full bg-neutral text-white py-10 pattern scroll-mt-20">
 	<div class="container mx-auto pb-10">
 		<h2 class="text-3xl font-bold text-center">🧐 Preguntas Frecuentes</h2>
 	</div>

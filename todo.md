@@ -11,4 +11,4 @@
 ### Fix
 
 - [x] Grid of type of classes
-- [ ] Navbar for desktop and mobile
+- [x] Navbar for desktop and mobile

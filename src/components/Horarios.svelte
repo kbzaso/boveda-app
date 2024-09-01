@@ -2,7 +2,7 @@
 	export let horarios;
 </script>
 
-<div id="horarios" class="mx-auto w-full md:w-4/12 scroll-mt-10">
+<div id="horarios" class="mx-auto w-full md:w-4/12 scroll-mt-32">
 	<h2 class="text-3xl font-bold mb-8">⏰ Horarios</h2>
 	<div class="overflow-x-auto bg-white rounded-xl p-4 shadow-xl divide-y text-center">
 		{#each horarios as { bloque, profesor, horarios }, i}

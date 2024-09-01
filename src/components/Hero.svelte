@@ -5,9 +5,9 @@
 <header
 	class="relative bg-neutral flex items-center justify-center h-screen overflow-hidden"
 >
-	<div class="relative z-20 p-5 md:w-8/12 lg:w-6/12 flex flex-col items-center">
+	<div class="relative z-20 p-5 md:w-8/12 lg:w-6/12 flex flex-col items-center text-pretty">
 		<img src="/logo-web.png" alt="Logotipo de la Bóveda Secreta" />
-		<p class="text-white text-sm lg:text-lg p-4 text-center tracking-widest uppercase font-light">
+		<p class="text-white text-sm lg:text-lg p-4 text-center tracking-widest uppercase font-light max-w-4xl ">
 			Centro de entrenamiento de lucha libre, con foco en la preparación física y técnica para un
 			desempeño profesional de la disciplina.
 		</p>
