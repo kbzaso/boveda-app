@@ -4,8 +4,7 @@ export let coaches = [
         name: 'Zatara - La Cabrona',
         img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/ZATARA-PROFESORA.jpg',
         description:
-            'Luchadora Chilena con más de 14 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional. El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma este año el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena.',
-        work: "WWE's Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, 5 Luchas Clandestino, Revolución Lucha Libre, entre otras.",
+            'Luchadora Chilena con más de 15 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional.<br><br>El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. <br><br>Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena. <br><br> <b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, WWE`s Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, Brazilian Wrestling Federation, Revolución Lucha Libre, entre otras...',
         igLink: 'https://www.instagram.com/zatara.cabrona/'
     },
     {
@@ -78,5 +77,23 @@ export const horarios = [
                 hora: '19:00 a 20:30 hrs'
             }
         ]
+    }
+];
+
+export const blocks = [
+    {
+        title: 'Bloque Básico',
+        content: '¡Este es tu lugar para comenzar o retomar tu camino en la lucha libre!<br><br>Aquí, te proporcionaremos las herramientas esenciales para formarte como luchador, con un enfoque en desarrollar tu condición física y dominar los fundamentos del deporte. <br><br>En este nivel, aprenderás ejercicios clave que fortalecerán tu cuerpo y te prepararán para controlar cada movimiento sobre el ring. <br><br><b>¡Es hora de dar el primer paso hacia tu grandeza!</b>',
+        img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/BLOQUE-B%C3%81SICO.jpg'
+    },
+    {
+        title: 'Bloque Intermedio',
+        content: 'Si quieres pulir tus habilidades y reforzar tu destreza técnica, ¡el bloque intermedio es para ti! <br><br> Aquí, perfeccionarás lo básico y desarrollarás técnicas avanzadas para enfrentar desafíos más exigentes. <br><br> Te prepararás en un entorno competitivo que te llevará a dar lo mejor de ti. <br><br> <b>¡Es el momento de subir de nivel!</b>',
+        img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/BLOQUE-INTERMEDIO.jpg'
+    },
+    {
+        title: 'Bloque Avanzado',
+        content: 'El bloque avanzado es donde los prospectos de la Bóveda y los luchadores en competencia se encuentran para refinar sus habilidades y enfrentar desafíos mayores. <br><br>Aquí, potenciarás tu presencia en el ring, mejorarás tu flujo de combate, afinarás tu estrategia ofensiva y te prepararás para brillar en el entorno profesional. <br><br> <b>¡Es el momento de consolidar tu carrera como luchador!</b>',
+        img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/BLOQUE-AVANZADO.jpg'
     }
 ];
