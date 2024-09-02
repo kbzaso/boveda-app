@@ -24,7 +24,7 @@
 		muted
 		playsinline
 		poster="https://res.cloudinary.com/dtj5xnlou/image/upload/v1669293222/background3.jpg"
-		class=""
+		class=" rounded-t-lg"
 	>
 		<source
 			src={video}
