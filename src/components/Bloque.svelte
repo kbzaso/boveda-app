@@ -4,7 +4,7 @@
   export let info;
   export let truncateAt = 150; // Number of characters to show before truncating
 
-  let { title, content } = info;
+  let { title, content, video } = info;
 
   let isExpanded = false;
   $: displayContent = isExpanded ? content : content.slice(0, truncateAt);
@@ -17,6 +17,21 @@
       src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
       alt="Album" />
   </figure> -->
+  <video
+		id="vid"
+		autoplay
+		loop
+		muted
+		playsinline
+		poster="https://res.cloudinary.com/dtj5xnlou/image/upload/v1669293222/background3.jpg"
+		class=""
+	>
+		<source
+			src={video}
+			type="video/mp4"
+		/>
+		Tu navegador no soporta video
+	</video>
   <div class="card-body p-4">
     <h2 class="card-title">{title}</h2>
     <div class="text-gray-700">

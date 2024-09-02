@@ -50,7 +50,7 @@
 			{/each}
 		</div>
 		<div id="profesores" class="my-20 scroll-mt-32">
-			<h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Instractor/a</h2>
+			<h2 class="text-3xl font-bold mx-4 mb-4 mt-10">🤼‍♀️ Instructor/a</h2>
 			<div class="flex gap-10 mt-8 mx-4 flex-col lg:flex-row">
 				{#each activeCoaches as coach, i}
 					<Profe {coach} />
