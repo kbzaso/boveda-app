@@ -2,7 +2,7 @@ export let coaches = [
     {
         status: true,
         name: 'Zatara - La Cabrona',
-        img: 'https://res.cloudinary.com/dtj5xnlou/image/upload/v1669400279/ZATARA-PROFESORA.jpg',
+        img: '/zatara.jpg',
         description:
             'Luchadora Chilena con más de 15 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional.<br><br>El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. <br><br>Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena. <br><br> <b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, WWE`s Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, Brazilian Wrestling Federation, Revolución Lucha Libre, entre otras...',
         igLink: 'https://www.instagram.com/zatara.cabrona/'
