@@ -84,17 +84,17 @@ export const blocks = [
     {
         title: 'Bloque Básico',
         content: '¡Este es tu lugar para comenzar o retomar tu camino en la lucha libre!<br><br>Aquí, te proporcionaremos las herramientas esenciales para formarte como luchador, con un enfoque en desarrollar tu condición física y dominar los fundamentos del deporte. <br><br>En este nivel, aprenderás ejercicios clave que fortalecerán tu cuerpo y te prepararán para controlar cada movimiento sobre el ring. <br><br><b>¡Es hora de dar el primer paso hacia tu grandeza!</b>',
-        video: 'https://res.cloudinary.com/dtj5xnlou/video/upload/v1725239368/5LC/bloque_basico.mp4'
+        video: '/videos/bloque_basico.mp4'
 
     },
     {
         title: 'Bloque Intermedio',
         content: 'Si quieres pulir tus habilidades y reforzar tu destreza técnica, ¡el bloque intermedio es para ti! <br><br> Aquí, perfeccionarás lo básico y desarrollarás técnicas avanzadas para enfrentar desafíos más exigentes. <br><br> Te prepararás en un entorno competitivo que te llevará a dar lo mejor de ti. <br><br> <b>¡Es el momento de subir de nivel!</b>',
-        video: 'https://res.cloudinary.com/dtj5xnlou/video/upload/v1725239655/5LC/bloque_intermedio.mp4'
+        video: '/videos/bloque_intermedio.mp4'
     },
     {
         title: 'Bloque Avanzado',
         content: 'El bloque avanzado es donde los prospectos de la Bóveda y los luchadores en competencia se encuentran para refinar sus habilidades y enfrentar desafíos mayores. <br><br>Aquí, potenciarás tu presencia en el ring, mejorarás tu flujo de combate, afinarás tu estrategia ofensiva y te prepararás para brillar en el entorno profesional. <br><br> <b>¡Es el momento de consolidar tu carrera como luchador!</b>',
-        video: 'https://res.cloudinary.com/dtj5xnlou/video/upload/v1725239657/5LC/bloque_avanzado.mp4'
+        video: '/videos/bloque_avanzado.mp4'
     }
 ];
