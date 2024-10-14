@@ -44,7 +44,7 @@
 		class="absolute z-10 opacity-40 w-auto min-w-full min-h-full max-w-none grayscale"
 	>
 		<source
-			src="/videos/bg_hero.mp4"
+			src="https://5lc-website-assets.pages.dev/bg_hero.mp4"
 			type="video/mp4"
 		/>
 		Tu navegador no soporta video
