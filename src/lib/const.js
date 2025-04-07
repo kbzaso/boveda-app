@@ -45,9 +45,17 @@ export const horarios = [
                 hora: '18:00 a 19:30 hrs'
             },
             {
+                dia: 'Miércoles',
+                hora: '11:00 a 12:30 hrs'
+            },
+            {
+                dia: 'Jueves',
+                hora: '19:35 a 20:50 hrs'
+            },
+            {
                 dia: 'Sábado',
                 hora: '11:00 a 12:30 hrs'
-            }
+            },
         ]
     },
     {
@@ -56,11 +64,11 @@ export const horarios = [
         horarios: [
             {
                 dia: 'Martes',
-                hora: '19:00 a 20:30 hrs'
+                hora: '19:35 a 20:50 hrs'
             },
             {
-                dia: 'Sábado',
-                hora: '12:40 a 14:10 hrs'
+                dia: 'Jueves',
+                hora: '18:00 a 19:30 hrs'
             }
         ]
     },
@@ -73,8 +81,12 @@ export const horarios = [
                 hora: '19:35 a 20:50 hrs'
             },
             {
-                dia: 'Jueves',
-                hora: '19:00 a 20:30 hrs'
+                dia: 'Martes',
+                hora: '18:00 a 19:35 hrs'
+            },
+            {
+                dia: 'Sábado',
+                hora: '13:00 a 14:30 hrs'
             }
         ]
     }
