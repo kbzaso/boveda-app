@@ -43,7 +43,7 @@
     {#if shouldTruncate}
       <button
         on:click={() => isExpanded = !isExpanded}
-        class="w-full mt-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral transition-colors duration-200"
+        class="w-full mt-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-neutral transition-colors duration-200"
         aria-expanded={isExpanded}
       >
         <span class="flex items-center justify-center">

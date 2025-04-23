@@ -5,8 +5,8 @@
       <!-- head -->
       <thead>
         <tr>
-          <th class="bg-neutral text-base-100 font-normal">Clases</th>
-          <th class="bg-neutral text-base-100 font-normal"></th>
+          <th class="bg-[#08001b] text-base-100 font-normal">Clases</th>
+          <th class="bg-[#08001b] text-base-100 font-normal"></th>
         </tr>
       </thead>
       <tbody class="bg-base-100">

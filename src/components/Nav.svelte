@@ -29,7 +29,7 @@
 <div
 	id="navbar"
 	class={`w-full py-2 top-0 px-4 z-40 pt-2 fixed ${
-		isScrolled ? 'backdrop-blur-md bg-neutral/60' : ''
+		isScrolled ? 'backdrop-blur-md bg-[#08001b]/80' : ''
 	} transition-blur`}
 >
 	<div class="flex w-full justify-between items-center container mx-auto">
@@ -45,23 +45,23 @@
 		<div class="flex-none hidden lg:flex">
 			<nav class="menu menu-horizontal px-1 gap-2">
 				<a
-					class="btn btn-ghost text-primary font-ibm font-black text-xl italic normal-case"
+					class="btn btn-link font-ibm font-black text-xl italic normal-case"
 					href="/#blocks">¿A que bloque me inscribo?</a
 				>
 				<a
-					class="btn btn-ghost text-primary font-ibm font-black text-xl italic normal-case"
+					class="btn btn-link font-ibm font-black text-xl italic normal-case"
 					href="/#profesores">Instructor/a</a
 				>
 				<a
-					class="btn btn-ghost text-primary font-ibm font-black text-xl italic normal-case"
+					class="btn btn-link font-ibm font-black text-xl italic normal-case"
 					href="/#horarios">Horarios</a
 				>
 				<a
-					class="btn btn-ghost text-primary font-ibm font-black text-xl italic normal-case"
+					class="btn btn-link font-ibm font-black text-xl italic normal-case"
 					href="/#precios">Precios</a
 				>
 				<a
-					class="btn btn-ghost text-primary font-ibm font-black text-xl italic normal-case"
+					class="btn btn-link font-ibm font-black text-xl italic normal-case"
 					href="/#faq">FAQ</a
 				>
 

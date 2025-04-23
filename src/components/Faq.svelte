@@ -18,7 +18,7 @@
 		{
 			question: '¿Qué necesito para entrenar?',
 			answer:
-				'Recomendamos ropa limpia, cómoda y ligera. Estarás en constante movimiento, por lo que te sugerimos vestir algo que te permita desempeñar diversos tipos de ejercicio sin preocupaciones ni molestias. <br><br> La polera deberá contar con mangas (cortas o largas), no tank, top, sin mangas, musculosa, etc. <br><br>Considera una polera extra, ya que durante el entrenamiento hacemos un recambio para prevalecer la higiene del entrenamiento.<br><br>Al ser un deporte de contacto, mantener una higiene saludable es primordial para reforzar el respeto por nuestros compañeros, el espacio y la disciplina.<br><br>En base a lo mismo, solicitamos además calzado específico para el entrenamiento con el fin de no utilizar en el ring el mismo calzado que utilizamos en la calle.<br><br>Rodilleras, coderas, bucal y protección en general, son recomendadas para prevención, pero no obligatorias. Te sugerimos además, llevar una toalla de manos, así como una botella de agua personal.'
+				'Recomendamos ropa limpia, cómoda y ligera. Estarás en constante movimiento, por lo que te sugerimos vestir algo que te permita desempeñar diversos tipos de ejercicio sin preocupaciones ni molestias. <br><br> La polera deberá contar con mangas (cortas o largas), no tank, top, sin mangas, musculosa, etc. <br><br>Considera una polera extra, ya que durante el entrenamiento hacemos un recambio para prevalecer la higiene del entrenamiento.<br><br>Al ser un deporte de contacto, mantener una higiene saludable es primordial para reforzar el respeto por nuestros compañeros, el espacio y la disciplina.<br><br>En base a lo mismo, solicitamos además calzado específico para el entrenamiento con el fin de no utilizar en el ring-3 el mismo calzado que utilizamos en la calle.<br><br>Rodilleras, coderas, bucal y protección en general, son recomendadas para prevención, pero no obligatorias. Te sugerimos además, llevar una toalla de manos, así como una botella de agua personal.'
 		},
 		{
 			question: '¿Tienen duchas en la Bóveda?',
@@ -59,7 +59,7 @@
 	});
 </script>
 
-<section id="faq" class="w-full bg-neutral text-white py-10 pattern scroll-mt-20">
+<section id="faq" class="w-full text-white py-10 pattern scroll-mt-20">
 	<div class="container mx-auto pb-10">
 		<h2 class="text-3xl font-bold text-center">🧐 Preguntas Frecuentes</h2>
 	</div>
@@ -76,7 +76,7 @@
 						on:change={() => (isFirst = false)}
 					/>
 					<div
-						class="collapse-title text-xl font-medium peer-checked:bg-base-200 peer-checked:text-neutral"
+						class="collapse-title text-xl font-medium peer-checked:bg-base-200 peer-checked:text-neutral bg-[#08001b]"
 					>
 						{item.question}
 					</div>
