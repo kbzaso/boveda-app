@@ -33,10 +33,10 @@
 	});
 </script>
 
-<div class="flex flex-col w-full items-stretch bg-white border rounded-2xl shadow-xl relative">
-	<figure>
+<div class="flex flex-col lg:w-1/3 items-stretch bg-white border rounded-2xl shadow-xl relative">
+	<figure class="w-full">
 		<img
-			class="object-cover h-full w-full lg:min-w-96 rounded-tl-lg rounded-bl-lg transition-all"
+			class="object-cover w-full rounded-tl-lg rounded-tr-lg transition-all"
 			src={coach.img}
 			alt={coach.name}
 		/>
