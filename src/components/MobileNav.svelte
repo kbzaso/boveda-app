@@ -135,7 +135,7 @@
           </svg>
           <button
             on:click={closeSheet}
-            class="p-2 absolute right-2 text-neutral focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            class="p-2 absolute right-2 text-neutral focus:outline-hidden focus:ring-2 focus:ring-inset focus:ring-indigo-500"
             aria-label="Close menu"
           >
             <svg
@@ -155,7 +155,7 @@
         </div>
       </div>
       <div class="flex flex-col h-full overflow-y-auto">
-        <div class="flex-grow">
+        <div class="grow">
           <div class="flex flex-col space-y-2 p-4 pl-4 h-full">
             <ul class="h-full">
               {#each navItems as item, index}

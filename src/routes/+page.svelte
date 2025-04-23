@@ -32,7 +32,7 @@
 	/>
 </svelte:head>
 
-<div class="bg-base-200 pattern" transition:fade>
+<div class="bg-base-200" transition:fade>
 	<Nav />
 	<section class="relative">
 		<Hero />
@@ -69,13 +69,3 @@
 	</div>
 </div>
 <Whatsapp />
-
-
-<style>
-	.pattern{
-		background: linear-gradient(45deg, #ffffff 25%, transparent 25%), linear-gradient(315deg, #ffffff 25%, transparent 25%) ,linear-gradient(45deg, transparent 24%,#f9f9f9 25%, #f9f9f9 30%, transparent 31%, transparent 39%,#f9f9f9 40%, #f9f9f9 45%, transparent 45%),linear-gradient(315deg, transparent 24%,#f9f9f9 25%, #f9f9f9 30%, transparent 31%, transparent 39%,#f9f9f9 40%, #f9f9f9 45%, transparent 45%);
-        background-size: 2em 2em;
-        background-color: #ffffff;
-        opacity: 1
-	}
-</style>

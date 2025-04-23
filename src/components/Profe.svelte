@@ -42,16 +42,16 @@
 		/>
 	</figure>
 	<div class="absolute top-4 left-4">
-			{#if coach.igLink}
-				<a href={coach.igLink} target="_blank">
-					<Instagram class="w-10 h-10 stroke-primary"/>
-				</a>
-			{/if}
-			{#if coach.profile}
-				<a href={coach.profile} class="relative top-2" target="_blank">
-					<UserRoundSearch class="w-10 h-10 stroke-primary"/>
-				</a>
-			{/if}
+		{#if coach.igLink}
+			<a href={coach.igLink} target="_blank">
+				<Instagram class="w-10 h-10 stroke-primary" />
+			</a>
+		{/if}
+		{#if coach.profile}
+			<a href={coach.profile} class="relative top-4" target="_blank">
+				<img src="/profile-icon.svg" alt="" class="w-10 h-10">
+			</a>
+		{/if}
 	</div>
 
 	<div class="flex flex-col p-4 w-full">
@@ -68,7 +68,7 @@
 			{#if shouldTruncate && isMobileDevice}
 				<button
 					on:click={() => (isExpanded = !isExpanded)}
-					class="w-full mt-4 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral transition-colors duration-200"
+					class="w-full mt-4 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-neutral transition-colors duration-200"
 					aria-expanded={isExpanded}
 				>
 					<span class="flex items-center justify-center">
