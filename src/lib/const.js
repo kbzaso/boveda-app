@@ -4,8 +4,9 @@ export let coaches = [
         name: 'Zatara - La Cabrona',
         img: '/zatara.jpg',
         description:
-            'Luchadora Chilena con más de 15 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional.<br><br>El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa. <br><br>Tras un exitoso paso como instructora de lucha libre del “Yeyos Dojo” el 2020, retoma el mismo rol en la Bóveda Secreta a fin de transmitir lo aprendido a los nuevos prospectos de la lucha libre Chilena. <br><br> <b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, WWE`s Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, Brazilian Wrestling Federation, Revolución Lucha Libre, entre otras...',
-        igLink: 'https://www.instagram.com/zatara.cabrona/'
+            'Luchadora Chilena con más de 15 años de experiencia y diferentes reconocimientos y logros a nivel local e internacional.<br><br>El 2018 se presenta por primera vez en la Arena México, además de ser seleccionada para participar del Torneo “Mae Young Classic” de WWE y el Tryout Latinoamericano realizado en Chile por la misma empresa.  <br><br> <b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, WWE`s Mae Young Classic Tournament, WWE Latin American try out, Dragonmania, Imperio Lucha Libre, Brazilian Wrestling Federation, Revolución Lucha Libre, entre otras...',
+        igLink: 'https://www.instagram.com/zatara.cabrona/',
+        profile: 'https://www.5luchas.cl/equipo/luchadores/zatara'
     },
     {
         status: false,
@@ -32,6 +33,24 @@ export let coaches = [
         description:
             'Experimentado luchador con más de 15 años de trayectoria en la lucha libre nacional e internacional. Su vasta experiencia y conocimientos en la lucha libre lo convierten en un referente para las nuevas generaciones de luchadores y luchadoras.',
         work: '5 Luchas Clandestino, WWE, NOAH Prowrestling, Dragonmanía, Gladiadores, BWF, Trash, entre otras.',
+    },
+    {
+        status: true,
+        name: 'Owen Kampos',
+        img: '/owen.webp',
+        description:
+            'Luchador profesional con más de 11 años de trayectoria en la lucha libre nacional. Su amplio conocimiento y experiencia lo han convertido en un referente clave para las nuevas generaciones de luchadores y luchadoras. <br><br><b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, Xtreme Club, Revolución Lucha Libre, entre otras.',
+        igLink: 'https://www.instagram.com/owenkampos/',
+        profile: 'https://www.5luchas.cl/equipo/luchadores/owen'
+    },
+    {
+        status: true,
+        name: 'Mauri Parker',
+        img: '/mauri.webp',
+        description:
+            'Exalumno del Yeyos Dojo y actual luchador consolidado en 5 Luchas Clandestino. Su disciplina y constancia lo han posicionado como un referente en los fundamentos de esta disciplina, mientras que su carisma inspira y motiva a quienes lo rodean.<br><br> <b>Ha trabajado para empresas como: </b>5 Luchas Clandestino, Xtreme Club, Revolución Lucha Libre, entre otras.',
+        igLink: 'https://www.instagram.com/mauriparker.wrestler/',
+        profile: 'https://www.5luchas.cl/equipo/luchadores/mauri-parker'
     },
 ];
 
