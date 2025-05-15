@@ -1,17 +1,19 @@
 # Desarrollo continuo de la web oficial de la Bóveda Secreta
 
-### Add
+### Todo
 
-- [ ] Bento gallery of the place https://mitcheljager.github.io/svelte-tiny-slider/?ref=madewithsvelte.com
-- [x] Whatsapp CTA
+- [ ] Add testimony
+
+### In Progress
+
+### Done ✓
+
+- [x] Improve meta data
+- [x] Grid of type of classes
+- [x] Navbar for desktop and mobile
+- [x] Wsp CTA
 - [x] Add Faq
 - [x] Change all btns to the same color
 - [x] Add show more and show less btn for long descriptions
 - [x] Add videos to card with type of classes
 - [x] More info btn / secondary action
-
-### Fix
-
-- [ ] Improve meta data
-- [x] Grid of type of classes
-- [x] Navbar for desktop and mobile

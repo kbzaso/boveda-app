@@ -8,7 +8,7 @@
 	<div class="relative z-20 p-5 md:w-8/12 lg:w-6/12 flex flex-col items-center text-pretty">
 		<img src="/logo-web.png" alt="Logotipo de la Bóveda Secreta" />
 		<p class="text-white text-sm lg:text-lg p-4 text-center tracking-widest uppercase font-light max-w-4xl ">
-			Centro de entrenamiento de lucha libre, con foco en la preparación física y técnica para un
+			Centro de entrenamiento de lucha libre espectáculo, con foco en la preparación física y técnica para un
 			desempeño profesional de la disciplina.
 		</p>
 		<div class="flex gap-4 flex-col md:flex-row">
@@ -44,7 +44,7 @@
 		class="absolute z-10 opacity-40 w-auto min-w-full min-h-full max-w-none grayscale"
 	>
 		<source
-			src="https://5lc-website-assets.pages.dev/bg_hero.mp4"
+			src="https://5lc-website-assets.pages.dev/boveda/bg_hero.mp4"
 			type="video/mp4"
 		/>
 		Tu navegador no soporta video
