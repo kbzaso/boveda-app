@@ -3,6 +3,7 @@
 ### Todo
 
 - [ ] Add testimony
+- [ ] ADD: OG Image
 
 ### In Progress
 
