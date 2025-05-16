@@ -57,7 +57,7 @@ export let coaches = [
 export const horarios = [
     {
         bloque: 'Bloque Básico',
-        profesor: 'Zatara',
+        profesor: 'Zatara, Owen y Mauri',
         horarios: [
             {
                 dia: 'Lunes',
@@ -79,7 +79,7 @@ export const horarios = [
     },
     {
         bloque: 'Bloque Intermedio',
-        profesor: 'Zatara',
+        profesor: 'Zatara, Owen y Mauri',
         horarios: [
             {
                 dia: 'Martes',
@@ -93,7 +93,7 @@ export const horarios = [
     },
     {
         bloque: 'Bloque Avanzado',
-        profesor: 'Zatara',
+        profesor: 'Zatara, Owen y Mauri',
         horarios: [
             {
                 dia: 'Lunes',
