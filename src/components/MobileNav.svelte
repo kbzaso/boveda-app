@@ -193,7 +193,7 @@
                   {/if}
                 </li>
               {/each}
-              <li class=" mask flex gap-2 items-center">
+              <!-- <li class=" mask flex gap-2 items-center">
                 <button class="flex gap-2 items-center"
                 on:click={() => closeSheet()}
                   data-tally-open="wdbPAK"
@@ -203,7 +203,7 @@
                   <span class="font-bold text-neutral text-3xl">Incripción</span>
                   </button
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
